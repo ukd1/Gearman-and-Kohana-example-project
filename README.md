@@ -10,9 +10,7 @@ You will need to update the application/config/email.php with a valid SMTP host 
 
 If your gearmand is running on a different port and server you will need to alter this in application/config/gearman.php
 
-You will also need to compile the gearman server & PHP module for it. [Please see the presentation on my Blog](http://www.ukd1.co.uk/blog/2010/05/gearman-kohana-an-introduction/)
-
-To run the worker, open a shell and change to the folder with the code in and execute;
+You will also need to compile the gearman server & PHP module for it. [Please see the presentation on my Blog](http://www.ukd1.co.uk/blog/2010/05/gearman-kohana-an-introduction/). To run the worker, open a shell and change to the folder with the code in and execute;
 
 php index.php "gearman/workers"
 
